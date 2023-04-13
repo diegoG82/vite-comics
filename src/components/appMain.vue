@@ -42,12 +42,7 @@ export default {
     }
 }
 
-
-
 </script>
-
-
-
 
 
 <template>
@@ -59,14 +54,12 @@ export default {
             <div class="content flex">
                 <ul class="ctalist flex">
 
-
                     <li class="flex" v-for="image in ctaitems">
                         <a class="flex" :href="image.url">
                             <img :src="getImage(image)" alt="">
                             <p>{{ image.name }}</p>
                         </a>
                     </li>
-
 
                 </ul>
             </div>
@@ -75,6 +68,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
+
 .maincontent {
     height: 100px;
     width: 100%;
@@ -94,10 +89,12 @@ export default {
 .calltoaction {
 
     background-color: rgb(2, 130, 249);
+    position: relative;
+    z-index: 999;
 
     .content {
         height: 100px;
-        width: 80%;
+        width: 70%;
         color: white;
         margin: 0 auto;
     }
