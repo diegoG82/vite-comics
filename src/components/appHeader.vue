@@ -88,13 +88,14 @@ export default {
 <style scoped lang="scss">
 .header {
     height: 100px;
-
+    width: 80%;
+    margin: 0 auto;
     &-logo {
 
         width: 40%;
         align-items: center;
         line-height: 100px;
-        justify-content: center;
+       
     }
 
     &-list {
@@ -102,11 +103,11 @@ export default {
         width: 60%;
         align-items: center;
         line-height: 100px;
-        justify-content: center;
+       
     }
 
     ul {
-        justify-content: center;
+        justify-content: end;
         gap: 10px
     }
 
@@ -115,7 +116,8 @@ export default {
 li {
     list-style: none;
 
-    &.active {
+    &.active, 
+    &:hover {
         border-bottom: 5px solid rgb(2, 130, 249);
         color: rgb(2, 130, 249);
         height: 95px;
