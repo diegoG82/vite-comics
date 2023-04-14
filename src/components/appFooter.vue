@@ -56,21 +56,21 @@ export default {
           </div>
         </div>
         <div class="footer-logo flex">
-          <img class="biglogo" src="../img/dc-logo-bg.png" alt="" />
+          <img class="biglogo" src="../assets/img/dc-logo-bg.png" alt="" />
         </div>
       </div>
     </div>
     <div class="bottomfooter-container flex">
        <div class="bottom-footer flex">
-       <div class="bottom-button flex"><button>SIGN-UP NOW!  </button></div>
+       <div class="bottom-button flex"><button>SIGN-UP NOW!</button></div>
        <div class="bottom-social flex">
         <ul class="flex">
             <li><p>FOLLOW US</p></li>
-            <li><img src="../img/footer-facebook.png" alt=""></li>
-            <li><img src="../img/footer-twitter.png" alt=""></li>
-            <li><img src="../img/footer-youtube.png" alt=""></li>
-            <li><img src="../img/footer-pinterest.png" alt=""></li>
-            <li><img src="../img/footer-periscope.png" alt=""></li>
+            <li><img src="../assets/img/footer-facebook.png" alt=""></li>
+            <li><img src="../assets/img/footer-twitter.png" alt=""></li>
+            <li><img src="../assets/img/footer-youtube.png" alt=""></li>
+            <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
+            <li><img src="../assets/img/footer-periscope.png" alt=""></li>
         </ul>
        </div>
        </div>
@@ -126,7 +126,7 @@ export default {
 
 .footer {
   position: relative;
-  background: url(../img/footer-bg.jpg);
+  background: url(../assets/img/footer-bg.jpg);
   background-size: cover;
 }
 

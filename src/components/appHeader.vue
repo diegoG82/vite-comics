@@ -73,7 +73,7 @@ export default {
 <template>
     <div class="header-container">
         <div class="header flex">
-            <div class="header-logo flex"><img class="dclogo" src="../img/dc-logo.png" alt="dclogo"></div>
+            <div class="header-logo flex"><img class="dclogo" src="../assets/img/dc-logo.png" alt="dclogo"></div>
             <div class="header-list">
                 <ul class="header-nav flex">
                     <li v-for="link in links" :class="link.current ? 'active' : ''">
