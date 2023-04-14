@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="card" :class="type">
+    <div class="card">
         <img :src="image" alt="">
         <h4>{{ title }}</h4>
     </div>
@@ -20,7 +20,7 @@ export default {
 .card {
     width: calc(100% / 6 - 20px);
     margin: 10px;
-    
+
 
     img {
         height: 70%;
