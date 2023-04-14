@@ -2,8 +2,8 @@
 export default {
     name: "appCard",
     props: {
-        image: String,
-        title: String,
+        thumb: String,
+        series: String,
 
     }
 }
@@ -11,8 +11,8 @@ export default {
 
 <template>
     <div class="card">
-        <img :src="image" alt="">
-        <h4>{{ title }}</h4>
+        <img :src="thumb" alt="">
+        <h4>{{ series }}</h4>
     </div>
 </template>
 

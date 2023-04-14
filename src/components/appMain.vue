@@ -138,8 +138,8 @@ export default {
 
             <div class="row flex">
 
-                <appCard v-for="(product, index) in superheroimg" :key="index" :image="product.thumb"
-                    :title="product.series" />
+                <appCard v-for="(product, index) in superheroimg" :key="index" :thumb="product.thumb"
+                    :series="product.series" />
 
             </div>
             <div class="mainbutton"><button>LOAD MORE</button></div>
