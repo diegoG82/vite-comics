@@ -23,7 +23,8 @@ export default {
 
 
     img {
-        height: 70%;
+        max-height: 70%;
+        object-fit: contain;
     }
 
     h4 {
